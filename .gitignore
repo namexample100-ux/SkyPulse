@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (Sensitive!)
+.env
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local data (JSON persistence)
+# If you want to keep user settings locally and not push them
+settings.json
+subs.json
+favs.json
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
+Desktop.ini
