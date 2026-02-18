@@ -23,7 +23,7 @@ from aiogram.types import (
 )
 from aiohttp import web
 
-from config import BOT_TOKEN, MAX_FAVORITES, THROTTLE_RATE
+from config import BOT_TOKEN, ADMIN_ID, MAX_FAVORITES, THROTTLE_RATE
 from weather import WeatherService
 from news import NewsService
 from space_service import SpaceService
